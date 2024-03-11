@@ -1,11 +1,17 @@
 {
   "expo": {
+    "splash": {
+      "image": "./assets/Media6.png",
+      "backgroundColor": "#7203FF"
+    },
     "name": "my-nativewind-app",
     "slug": "my-nativewind-app",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
+    ],
+    "plugins": [
+      "expo-font"
     ]
-  },
-  "name": "my-nativewind-app"
+  }
 }
