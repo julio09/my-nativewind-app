@@ -191,7 +191,7 @@ function Home({navigation}) {
                     text2: 'Materiel modifier avec succées 👋'
                 })
                 CleanVal();
-                setModale(false);
+                setUpdate(false);
                 fetchData();
                 Count();
             })
