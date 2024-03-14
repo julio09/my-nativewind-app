@@ -95,7 +95,8 @@ function Home({navigation}) {
                 }
                 // Handle successful response
                 showToast();
-                setList(response.data)
+                setList(response.data);
+                setCounter(response.data);
             })
             .catch(error => {
                 // Handle error
@@ -403,7 +404,7 @@ function Home({navigation}) {
                     horizontal
                     ListEmptyComponent={() =>
                         <View className={"justify-center items-center mt-52s"}>
-                            <Text className={"text-3xl mt-24 justify-center text-center text-white font-bold"}>Aucun donner!</Text>
+                            <Text className={"text-3xl ml-2 mt-24 text-indigo-500 justify-center text-center font-bold"}>Aucun donner!</Text>
                         </View>
                     }
                     disableRightSwipe
